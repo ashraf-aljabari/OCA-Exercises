@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 1</title>
+
+  </head>
+
+  <body>
+    <div style="text-align: center;">
+      <h1>Registration Form</h1>
+    </div>
+    <div class="content">
+      <div class='componentWrapper'>
+        <div class="header">Personal detials</div>
+        <form action="#">
+          <table class="center">
+            <tr>
+              <td> <label for="fname">First name</label> </td>
+              <td><input type="text"> </td>
+            </tr>
+            <tr>
+              <td> <label for="lname">Lirst name</label> </td>
+              <td><input type="text"> </td>
+            </tr>
+            <tr>
+              <td> <label for="Email">Email adress</label> </td>
+              <td><input type="email"> </td>
+            </tr>
+            <tr>
+              <td><label for="name">Gender</label></td>
+
+              <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="male">Female</label><br>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+
+    <div class="contentWithNoPadding">
+      <div class="componentWrapper">
+        <div class="header">City</div>
+        <form action="#">
+          <table class="center">
+            <tr>
+              <td><Label>City</Label></td>
+              <td>
+                <select name="city" id="city">
+                  <option value="a">Amman</option>
+                  <option value="b">Irbid</option>
+                  <option value="c">Aqaba</option>
+                  <option value="d">Al Karak</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+
+    <div class="buttonCenter">
+      <button>Subscribe</button>
+    </div>
+
+
+
+
+  </body>
+
+</html>

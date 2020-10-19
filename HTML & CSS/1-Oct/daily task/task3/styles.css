@@ -1,0 +1,38 @@
+.top-con {
+  background-color: green;
+  width: auto;
+  height: auto;
+  padding: 20px;
+
+}
+
+.div1 {
+
+  border: yellow solid 20px;
+
+
+}
+
+.div2 {
+  border: green solid 20px;
+  background-color: green;
+
+}
+
+.div3 {
+  border: yellow solid 20px;
+  background-color: yellow;
+
+}
+
+.div4 {
+  border: green solid 20px;
+  background-color: green;
+  padding: 20vmax;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 8vw;
+}

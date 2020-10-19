@@ -1,0 +1,101 @@
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+
+.item {
+  color: #131313;
+  font-size: 4vw;
+  padding: 0.5rem;
+  text-align: center;
+  border: darkred dotted 0.3rem;
+}
+
+.item:hover {
+  background-color: darkred;
+  color: white;
+  border: white dotted 0.3rem;
+}
+
+.item:nth-child(1) {
+  grid-column: span 12;
+  border: black dotted 0.3rem;
+}
+
+.item:nth-child(1):hover {
+  background-color: black;
+  color: white;
+  border: white dotted 0.3rem;
+}
+
+.item:nth-child(2),
+.item:nth-child(3) {
+  grid-column: span 6;
+  border: orange dotted 0.3rem;
+}
+
+.item:nth-child(2):hover,
+.item:nth-child(3):hover {
+  background-color: orange;
+  color: white;
+  border: white dotted 0.3rem;
+}
+
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(6) {
+  grid-column: span 4;
+  border: darkorchid dotted 0.3rem;
+}
+
+.item:nth-child(4):hover,
+.item:nth-child(5):hover,
+.item:nth-child(6):hover {
+  background-color: darkorchid;
+  color: white;
+  border: white dotted 0.3rem;
+}
+
+.item:nth-child(7),
+.item:nth-child(8),
+.item:nth-child(9),
+.item:nth-child(10) {
+  grid-column: span 3;
+  border: teal dotted 0.3rem;
+}
+
+.item:nth-child(7):hover,
+.item:nth-child(8):hover,
+.item:nth-child(9):hover,
+.item:nth-child(10):hover {
+  background-color: teal;
+  color: white;
+  border: white dotted 0.3rem;
+}
+
+.item:nth-child(11),
+.item:nth-child(12),
+.item:nth-child(13),
+.item:nth-child(14),
+.item:nth-child(15),
+.item:nth-child(16) {
+  grid-column: span 2;
+  border: darkblue dotted 0.3rem;
+}
+
+.item:nth-child(11):hover,
+.item:nth-child(12):hover,
+.item:nth-child(13):hover,
+.item:nth-child(14):hover,
+.item:nth-child(15):hover,
+.item:nth-child(16):hover {
+  background-color: darkblue;
+  color: white;
+  border: white dotted 0.3rem;
+}
+/*# sourceMappingURL=styles.css.map */

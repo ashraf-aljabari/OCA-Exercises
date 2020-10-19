@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Bootstrap Form</title>
+  </head>
+
+  <body>
+    <form style="margin: 30px;">
+      <div class="form-group">
+        <label class="font-weight-bold" for="exampleInputEmail1">First Name:</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label class="font-weight-bold" for="exampleInputPassword1">Last Name:</label>
+        <input type="text" class="form-control" id="exampleInputPassword1">
+      </div>
+
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="radio" aria-label="Radio button for following text input">
+            <div style="margin: 5px;">Male</div>
+          </div>
+        </div>
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="radio" aria-label="Radio button for following text input">
+            <div style="margin: 5px;">Female</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div>
+        <label class="font-weight-bold" for="exampleInputEmail1">Date of birth:</label>
+        <input type="date" style="width: 100%; height: 40px;" placeholder="dd.mm.yyyy">
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+
+  </body>
+
+</html>

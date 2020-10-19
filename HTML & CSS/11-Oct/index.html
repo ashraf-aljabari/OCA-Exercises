@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>pokemon</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .info {
+      width: 50%;
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 20px;
+      margin: 5%;
+      padding: 0 1.5%;
+    }
+
+    .wrap {
+      max-width: 30%;
+
+      /* margin: 50px auto 50px; */
+    }
+
+    .bar {
+      color: #fff;
+      letter-spacing: 1px;
+      font-weight: 500;
+      font-size: 16px;
+      position: relative;
+    }
+
+    .bar {
+      display: inline-block;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    .bar span {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      height: 25px;
+      background: #000;
+      border-radius: 50px;
+    }
+
+    .bar span::before {
+      position: absolute;
+      content: "";
+      top: 6px;
+      left: 5px;
+      width: 80%;
+      height: 50%;
+      background: linear-gradient(to left, #008000, #ff0057);
+      border-radius: 50px;
+      animation: bar 2s ease;
+    }
+
+    @keyframes bar {
+      from {
+        width: 0;
+      }
+    }
+
+    .bar:nth-child(1) span:before {
+      width: 70%;
+    }
+
+    .bar:nth-child(2) span:before {
+      width: 65%;
+    }
+
+    .bar:nth-child(3) span:before {
+      width: 70%;
+    }
+
+    .bar:nth-child(4) span:before {
+      width: 75%;
+    }
+
+    .bar:nth-child(5) span:before {
+      width: 70%;
+    }
+
+    .bar:nth-child(6) span:before {
+      width: 50%;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="info">
+        <h1>Arcanine</h1>
+        <h2
+          style="
+            background: red;
+            margin-right: 83%;
+            padding: 10px;
+            border-radius: 1rem;
+            color: white;
+          "
+        >
+          FIRE
+        </h2>
+        <h3>Summary</h3>
+        <p>
+          Arcanine is a Fire Pokémon which evolves from Growlithe. It is
+          vulnerable to Ground, Rock and Water moves. Arcanine's strongest
+          moveset is Fire Fang & Fire Blast and it has a Max CP of 3,029.
+        </p>
+        <h3>About</h3>
+        <p>
+          "Arcanine is known for its high speed. It is said to be capable of
+          running over 6,200 miles in a single day and night. The fire that
+          blazes wildly within this Pokémon's body is its source of power."
+        </p>
+        <div style="display: flex">
+          <img
+            src="https://media3.giphy.com/media/s21vXaSxCP0pB10I7E/giphy.webp?cid=ecf05e47idxlyek0l4wxeejgpgn2budc1bb1ng3qy816q4d0&rid=giphy.webp"
+            style="width: 150px; height: 150px"
+            alt=""
+          />
+          <img
+            src="https://media0.giphy.com/media/C5Q3XmEp9qoRG/giphy.webp?cid=ecf05e47p0o6ym1whmjgcmkn53hfl9zwhmq7n5pnbyoh8a6d&rid=giphy.webp"
+            style="width: 200px; height: 200px"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="wrap">
+        <h2
+          style="
+            color: white;
+            background-color: green;
+            margin-left: 10%;
+            margin-right: 30%;
+            padding: 0.5rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 0;
+            margin-top: 22%;
+          "
+        >
+          Base Stats
+        </h2>
+
+        <div class="bar">
+          <h3>HP</h3>
+          <span></span>
+        </div>
+        <div class="bar">
+          <h3>Attack</h3>
+          <span></span>
+        </div>
+        <div class="bar">
+          <h3>Defense</h3>
+          <span></span>
+        </div>
+        <div class="bar">
+          <h3>Sp.Atk</h3>
+          <span></span>
+        </div>
+        <div class="bar">
+          <h3>Sp.Def</h3>
+          <span></span>
+        </div>
+        <div class="bar">
+          <h3>Speed</h3>
+          <span></span>
+        </div>
+      </div>
+
+      <div></div>
+    </div>
+  </body>
+</html>

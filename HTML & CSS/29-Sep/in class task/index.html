@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html layout</title>
+    <style>
+      li {
+        display: inline-flex;
+        padding: 25px;
+      }
+
+      section {
+        background-color: silver;
+        width: 79%;
+        position: absolute;
+        height: 180px;
+      }
+
+      article {
+        width: 79%;
+        background-color: cadetblue;
+        position: absolute;
+        top: 368px;
+        height: 150px;
+      }
+
+      aside {
+        background-color: tomato;
+        width: 20%;
+        position: absolute;
+        left: 80%;
+        height: 294px;
+
+      }
+
+      h2,
+      p {
+        text-align: center;
+        color: white;
+      }
+
+      ul {
+        text-align: center;
+      }
+
+      details {
+        margin-top: 330px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        padding-left: 15px;
+        background-color: orange;
+      }
+
+      details p {
+        font-size: 18px;
+        padding-bottom: 50px;
+      }
+
+      summary {
+        color: white;
+        font-size: 22px;
+        padding-top: 20px;
+      }
+
+      footer {
+        width: 100%;
+        bottom: 0px;
+        background-color: orange;
+        color: white;
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      th {
+        color: white;
+      }
+
+      tr {
+        color: white;
+      }
+
+      table {
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body style="align-items: center;">
+
+    <header>
+      <h1 style="color: white;text-align:center;
+      background-color:orange;padding:30px">
+        Orange Coding Academy
+      </h1>
+    </header>
+
+    <nav style="background-color: orange;">
+      <ul>
+        <li> <a href="#foot"> Home </a></li>
+        <li> <a href="https://www.orange.jo/en/pages/about-orange.aspx"> Team </a></li>
+        <li> <a href="login.html"> Login </a></li>
+        <li> <a href="https://www.orange.jo/en/help/pages/default.aspx"> support </a></li>
+      </ul>
+    </nav>
+
+
+    <section>
+      <h2> what is orange coding academy ? </h2>
+      <p> <a target="_blank" href="https://www.orange.jo/en/pages/coding-academy.aspx"> <img src="images/download.png"
+            alt="orange" height="80px"> </a> </p>
+    </section>
+
+    <article>
+      <h2> About Orange Coding Academy</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugit, enim eaque mollitia esse amet ipsam
+        quisquam deleniti et aspernatur necessitatibus? Magni, laborum omnis. Ex et voluptatibus at sapiente saepe
+        voluptates consequatur asperiores numquam. Architecto fugiat nobis alias distinctio odio.</p>
+    </article>
+
+    <a
+      href="https://www.google.com/search?q=ban+cake&sxsrf=ALeKk03YPzu9PfWqH0wUuUDnzGl1PckiHQ:1601386237763&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjV-eXOvI7sAhVEQhoKHQ2DAVEQ_AUoAXoECBwQAw&biw=828&bih=754#imgrc=C8Ziv50SSH-9FM">
+      <aside>
+        <h2> advertisements</h2>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum minus nemo sed ad temporibus iure officia
+          voluptatibus! Temporibus, et ab? </p>
+
+        <img
+          src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/5/1/0/BX0609H_old-fashioned-banana-cake_s4x3.jpg.rend.hgtvcom.826.620.suffix/1557858582520.jpeg"
+          alt="ban cake" width="80px" height="80px">
+      </aside>
+    </a>
+
+    <details>
+      <summary>click here to show details about orange fiber:</summary>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat enim modi repellendus quasi deserunt velit
+        deleniti quis ipsum nemo tenetur, facere similique doloribus vitae quos dicta odit esse, inventore itaque
+        quaerat laborum natus? Error tempora laudantium mollitia voluptates tempore ad quod facilis ea voluptas,
+        dignissimos laboriosam enim molestias deleniti quia culpa praesentium! Voluptatibus quisquam distinctio dolor
+        sed ad, natus quo molestiae unde atque numquam nobis tempora esse, veritatis alias veniam cupiditate quae quasi
+        sapiente labore nam. Necessitatibus molestiae rem, distinctio cum doloremque exercitationem quam? Officiis
+        incidunt minus praesentium ipsa repudiandae in assumenda, libero esse quis molestiae id quam pariatur!
+        Exercitationem.</p>
+
+      <table border="true" style="align-content: center;">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Speed</th>
+            <th>Bandwidth</th>
+            <th>Email</th>
+            <th>phone number</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>1 y</td>
+          <td>100 MB</td>
+          <td rowspan="3">300 kb</td>
+          <td>orange@email.com</td>
+          <td>214234234</td>
+        </tr>
+        <tr>
+          <td>2 y</td>
+          <td>200 MB</td>
+          <td>orange@email.com</td>
+          <td>23432432</td>
+        </tr>
+        <tr>
+          <td>3 y</td>
+          <td>300 MB</td>
+          <td colspan="2">orange@email.com</td>
+        </tr>
+      </table>
+      <br>
+      <label style="color: white;font-weight: bold;">put your info here to cantact you:</label>
+      <br>
+      <br>
+      <form action="">
+        <label style="color: white;font-weight: bold;" for="fname">Full name</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label style="color: white;font-weight: bold;" for="lname">phone number</label><br>
+        <input type="tel" id="lname" name="lname"><br><br>
+        <input type="checkbox" id="vehicle1" name="pass" value="showPassword">
+        <label for="s" style="color: white;font-weight: bold;"> <b>send advertisements emails</b></label><br><br>
+        <label for="a" style="color: white;font-weight: bold;">internet type:</label>
+        <select name="Anime" id="Anime">
+          <option value="">100 MB</option>
+          <option value="">200 MB</option>
+          <option value="">300 MB</option>
+          <option value="">Other</option>
+        </select>
+        <br><br>
+        <label for="info">other recommendations:</label> <br>
+        <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea> <br><br>
+      </form>
+      <input type="submit" value="Submit" style="color: orange; 
+                background-color: white;
+                font-size: large; 
+                font-weight: bold; 
+                border-color: 
+                transparent; 
+                border-radius: 15px;">
+    </details>
+
+    <hr>
+
+    <footer id="foot">
+
+      <h3>
+        Orange
+      </h3>
+      <p> © Copyright 2055 </p>
+
+    </footer>
+
+  </body>
+
+</html>

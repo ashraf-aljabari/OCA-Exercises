@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      #container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+        border: 12px solid goldenrod;
+        margin: 5px;
+
+        width: 100vw;
+
+      }
+
+      #container div {
+        width: 250px;
+        height: 150px;
+        color: white;
+        text-align: center;
+        font-size: 120px;
+        flex: 0 0 25%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="item" style="background: chartreuse;">1</div>
+      <div class="item" style="background: chocolate;">2</div>
+      <div class="item" style="background: purple;">3</div>
+      <div class="item" style="background: cornflowerblue;">4</div>
+      <div class="item" style="background: cyan;">5</div>
+      <div class="item" style="background: darkgray;">6</div>
+      <div class="item" style="background: darkorange;">7</div>
+      <div class="item" style="background: darkred;">8</div>
+      <div class="item" style="background: deeppink;">9</div>
+      <div class="item" style="background: dodgerblue;">10</div>
+
+    </div>
+  </body>
+
+</html>

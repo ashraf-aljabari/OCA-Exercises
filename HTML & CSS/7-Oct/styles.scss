@@ -1,0 +1,97 @@
+//grid container layout
+$gridRowTem: repeat(6, 1fr);
+$gridColumnTem: repeat(12, 1fr);
+$gridGap: 10px;
+// boxes layout
+$boxTextColor: #131313;
+$boxfontSize: 4vw;
+$boxPadding: 0.5rem;
+$boxTextAlign: center;
+$boxBorder: dotted 0.3rem;
+
+.grid-container {
+  display: grid;
+  grid-template-rows: $gridRowTem;
+  grid-template-columns: $gridColumnTem;
+  grid-gap: $gridGap;
+}
+
+.item {
+  color: $boxTextColor;
+  font-size: $boxfontSize;
+  padding: $boxPadding;
+  text-align: $boxTextAlign;
+  border: darkred $boxBorder;
+
+  &:hover {
+    background-color: darkred;
+    color: white;
+    border: white $boxBorder;
+  }
+}
+
+.item:nth-child(1) {
+  grid-column: span 12;
+  border: black $boxBorder;
+
+  &:hover {
+    background-color: black;
+    color: white;
+    border: white $boxBorder;
+  }
+}
+
+.item:nth-child(2),
+.item:nth-child(3) {
+  grid-column: span 6;
+  border: orange $boxBorder;
+
+  &:hover {
+    background-color: orange;
+    color: white;
+    border: white $boxBorder;
+  }
+}
+
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(6) {
+  grid-column: span 4;
+  border: darkorchid $boxBorder;
+
+  &:hover {
+    background-color: darkorchid;
+    color: white;
+    border: white $boxBorder;
+  }
+}
+
+.item:nth-child(7),
+.item:nth-child(8),
+.item:nth-child(9),
+.item:nth-child(10) {
+  grid-column: span 3;
+  border: teal $boxBorder;
+
+  &:hover {
+    background-color: teal;
+    color: white;
+    border: white $boxBorder;
+  }
+}
+
+.item:nth-child(11),
+.item:nth-child(12),
+.item:nth-child(13),
+.item:nth-child(14),
+.item:nth-child(15),
+.item:nth-child(16) {
+  grid-column: span 2;
+  border: darkblue $boxBorder;
+
+  &:hover {
+    background-color: darkblue;
+    color: white;
+    border: white $boxBorder;
+  }
+}

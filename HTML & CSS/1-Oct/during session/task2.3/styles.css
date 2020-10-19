@@ -1,0 +1,31 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+div {
+  border: 2px black inset;
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+}
+
+#box-3 {
+  border: 2px red dotted;
+}
+
+#box-3 h2 {
+  color: red;
+}
+
+#box-3 p {
+  border: 2px red dotted;
+  color: red;
+}
+
+#one {
+  background-color: pink;
+}
+
+span {
+  background-color: rgb(253, 246, 177);
+}
