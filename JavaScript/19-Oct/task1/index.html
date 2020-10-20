@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="index.css">
+ <link rel="stylesheet"
+          href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <title>Document</title>
+</head>
+<body>
+  <form name="formOne" onsubmit="return validation()" action="#">
+    <div class="container">
+      <h1>Create an Account</h1>
+      <hr>
+
+      <div class="input-icons"> 
+        <i class="fa fa-user icon"> 
+      </i> 
+        <input class="input-field" 
+               type="text" 
+               name="username"
+               placeholder="Name"> 
+    </div>
+
+    <div class="input-icons"> 
+      <i class="fa fa-phone icon"> 
+    </i> 
+      <input class="input-field" 
+             type="text"
+             name="input-phoneNumber"
+             placeholder="Phone Number">
+    </div>
+
+    <div class="input-icons"> 
+      <i class="fa fa-envelope icon"> 
+    </i> 
+      <input class="input-field" 
+             type="text"
+             name="input-email"
+             placeholder="Email"> 
+  </div> 
+
+  <div class="input-icons"> 
+      <i class="fa fa-key icon"> 
+    </i> 
+      <input class="input-field" 
+             type="password"
+             name="input-password"
+             placeholder="Password">
+    </div>
+
+    <div>
+      <input id="checkAgree" type="checkbox" onclick="changed(this)">
+      I agree to the <a href="">Terms and Conditions</a> and <a href="">Privacy Policy</a>
+    </div>
+    <input id="submitBtn" disabled type="submit" value="Create Account" class="registerbtn">
+  </form>
+  <script src="index.js"></script>
+</body>
+</html>
