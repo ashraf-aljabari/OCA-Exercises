@@ -17,7 +17,6 @@ function validate(savingType) {
 function clearInput(){
   document.getElementById("input-key").value = "";
   document.getElementById("input-value").value = "";
-
 }
 
 function clearData(){
