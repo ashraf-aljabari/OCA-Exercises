@@ -1,0 +1,51 @@
+section {
+  /* color: #fff; */
+  padding: 2rem;
+  margin: 0 30%;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: darkgray;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  border-color: darkblue;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0.3rem;
+}
+
+label {
+  color: darkblue;
+  font-weight: 600;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#btn {
+  background: white;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background: darkblue;
+  color: white;
+}

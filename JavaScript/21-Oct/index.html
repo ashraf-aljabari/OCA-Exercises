@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <div class="container">
+    <h1>Web Storage</h1>
+    <form name="fromOne" action="#">
+      <label for="key">Key</label>
+      <input  placeholder="Key" type="text" name="key" id="input-key">
+      <label for="value">Value</label>
+      <input   placeholder="Value" type="text" name="value" id="input-value">
+    </form>
+    <div class="btnContainer">
+      <input id="btn" type="button" onclick="validate('local')" value="Local Submit">
+      <input id="btn" type="button" onclick="validate('session')" value="Session Submit">
+      <input id="btn" type="button" onclick="clearData()" value="Clear">
+    </div>
+  </div>
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>

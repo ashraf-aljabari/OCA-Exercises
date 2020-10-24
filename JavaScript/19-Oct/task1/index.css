@@ -52,8 +52,56 @@ h2 {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 40%;
   opacity: 0.9;
   border-radius: 20px;
   float: right;
+}
+
+.showbtn {
+  background-color: darkblue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  border-radius: 20px;
+  float: left;
+  text-align: center;
+}
+
+.clearBtn {
+  position: absolute;
+  top: 64%;
+  left: 31%;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  padding: 16px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.printBtn {
+  position: absolute;
+  top: 55%;
+  left: 31%;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  padding: 16px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  border-radius: 20px;
+  text-align: center;
 }

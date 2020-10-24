@@ -24,6 +24,7 @@
                placeholder="Name"> 
     </div>
 
+
     <div class="input-icons"> 
       <i class="fa fa-phone icon"> 
     </i> 
@@ -56,7 +57,15 @@
       I agree to the <a href="">Terms and Conditions</a> and <a href="">Privacy Policy</a>
     </div>
     <input id="submitBtn" disabled type="submit" value="Create Account" class="registerbtn">
+
+    <input  onclick="printOutput()" type="button" value="Show Registered" class="showbtn">
+ 
+    <input onclick="clearData()" value="CLEAR" type="button" class="clearBtn">
+  
+    <button onclick="printAllItems()" type="button" class="printBtn">Print Everything</button>
   </form>
+ 
+ 
   <script src="index.js"></script>
 </body>
 </html>
